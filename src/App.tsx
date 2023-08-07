@@ -14,13 +14,11 @@ function Count() {
 
 function App() {
   return (
-    <>
+    <div className="card">
       <h1>Vite + React</h1>
-      <div className="card">
-        <Count />
-        <Count />
-      </div>
-    </>
+      <Count />
+      <Count />
+    </div>
   )
 }
 
